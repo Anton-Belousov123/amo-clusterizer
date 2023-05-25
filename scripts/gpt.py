@@ -6,7 +6,7 @@ import os
 
 def get_answer(messages: list):
     try:
-        openai.api_key = 'sk-HCEHgJyq6CXfVmOL3wUlT3BlbkFJgyxmD1HhlgKbm39A1PO'
+        openai.api_key = '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'
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
             messages=messages
