@@ -81,9 +81,9 @@ def main():
                     change_status.start(pipeline_id)
 
                 print('Finished', pipeline_id)
-        except:
+        except Exception as e:
             time.sleep(3)
-            print('Exception')
+            print('Exception', e)
 
 
 if __name__ == '__main__':
